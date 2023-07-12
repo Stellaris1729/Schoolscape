@@ -47,7 +47,7 @@ body {
 
 .card {
   font-family: 'Poppins', sans-serif;
-  margin: 6vh 60vh 0 60vh;
+  margin: 1vh 60vh 0 60vh;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
