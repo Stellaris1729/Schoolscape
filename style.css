@@ -23,23 +23,30 @@ p {
 p:not(:last-child) {
   margin-bottom: 1.5em;
 }
-
+html, body, main {
+  height: 100%;
+}
 body {
-  font-family: 'Poppins', sans-serif;
+  background:
+    radial-gradient(black 3px, transparent 4px),
+    radial-gradient(black 3px, transparent 4px),
+    linear-gradient(#fff 4px, transparent 0),
+    linear-gradient(45deg, transparent 74px, transparent 75px, #a4a4a4 75px, #a4a4a4 76px, transparent 77px, transparent 109px),
+    linear-gradient(-45deg, transparent 75px, transparent 76px, #a4a4a4 76px, #a4a4a4 77px, transparent 78px, transparent 109px),
+    #fff;
+    background-size: 109px 109px, 109px 109px,100% 6px, 109px 109px, 109px 109px;
+    background-position: 54px 55px, 0px 0px, 0px 0px, 0px 0px, 0px 0px;
 
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 30px;
   
-  color: white;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-image: url(./assets/img/bg-desktop.png);
+  color: #1a2b75;
   overflow-x: hidden;
 }
 
 .card {
+  font-family: 'Poppins', sans-serif;
   margin: 6vh 60vh 0 60vh;
   display: flex;
   flex-direction: column;
@@ -49,13 +56,14 @@ body {
 
   border: 1px solid rgba(255, 255, 255, .25);
   border-radius: 20px;
-  background-color: rgba(255, 255, 255, 0.45);
+  background-color:rgba(192,192,192,0.3);
   box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.25);
 
   backdrop-filter: blur(15px);
 }
 
 .card-footer {
+  font-family: 'Poppins', sans-serif;
   font-size: 0.65em;
   color: #446;
 }
@@ -127,13 +135,6 @@ input[type = password], select {
 }
 
 @media screen and (max-width: 600px) {
-
-    body {
-        background-image: url(./assets/img/bg-mobile.png);
-        background-repeat: no-repeat;
-        background-size: 100vh;
-    }
-    
     .subheading {
         display: flex;
         justify-content: center;
