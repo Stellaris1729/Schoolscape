@@ -1,12 +1,5 @@
 import users from "../users.json" assert { type: "json" };
 
-var colors = require('colors');
-
-colors.setTheme({
-    success: 'green',
-    warn: 'yellow',
-    error: 'red'
-});
 // Function to calculate SHA-256 hash
 async function calculateSHA256Hash(message) {
   const encoder = new TextEncoder();
