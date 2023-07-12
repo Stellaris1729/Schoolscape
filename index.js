@@ -1,5 +1,12 @@
 import users from "../users.json" assert { type: "json" };
 
+var colors = require('colors');
+
+colors.setTheme({
+    success: 'green',
+    warn: 'yellow',
+    error: 'red'
+});
 // Function to calculate SHA-256 hash
 async function calculateSHA256Hash(message) {
   const encoder = new TextEncoder();
@@ -33,5 +40,5 @@ form.addEventListener("submit", function (event) {
           "<p id='card-footer'>Incorrect Username or Password!</p>";
       }
     })
-    .catch((error) => console.error("Error calculating hash:", error));
+    .catch((error) => console.error("Error Calculating Hash:".error, error));
 });
