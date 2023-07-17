@@ -16,7 +16,7 @@
       <div class="subheading">Schoolscape.</div>
       <div class="loginarea">
         <div class="form">
-          <form action="" id="form">
+          <form action="/add_user" method="POST">
             <input
               type="text"
               id="name"
@@ -31,16 +31,14 @@
               placeholder="Password"
               required
             />
-            <button class="btn" type="submit">Sign Up</button>
+            <button class="btn" type="submit" value="Go">Sign Up</button>
           </form>
         </div>
       </div>
       <div class="card-footer-2">
         Existing User?
-        <a href="./index.html"> Sign In </a>
+        <a href="/index.html"> Sign In </a>
       </div>
-      <div id="show"></div>
     </div>
-    <script src="./index.js" type="module"></script>
   </body>
 </html>
