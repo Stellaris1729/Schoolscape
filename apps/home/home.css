@@ -40,15 +40,6 @@ body {
   justify-content:center;
 }
 
-.card {
-  margin: 100px 100px 100px 100px;
-  height: 350px;
-  width: 350px;
-  background-color:#fff;
-  border:5px solid black;
-  box-shadow:0 0 0 7px #fff,0 0  8px 5px #000;
-}
-
 .card-image {
   position:relative;
   width:100%;

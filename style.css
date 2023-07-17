@@ -217,6 +217,20 @@ select {
     box-sizing: border-box;
   }
 
+  .card-footer-1 {
+  font-family: "Poppins", sans-serif;
+  font-size: 0.65em;
+  color: #446;
+  margin: 0 0 0 62px;
+}
+
+.card-footer-2 {
+  font-family: "Poppins", sans-serif;
+  font-size: 0.65em;
+  color: #446;
+  margin: 0 0 0 58px;
+}
+
   #error {
     padding: 0 0 20px 63px;
   }
