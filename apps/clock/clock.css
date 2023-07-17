@@ -57,7 +57,7 @@ img{
     margin: auto;
     left: 0;
     right: 0;
-    background-color: rgba(255,255,255,0.2);
+    background-color: #1a2b75;
     -webkit-backdrop-filter: blur(20px);
             backdrop-filter: blur(20px);
     border-radius: 5px;
@@ -82,13 +82,13 @@ img{
 }
 
 a{
-    color: #ffffff;
+    color: #1a2b75;
     font-family: "Poppins",sans-serif;
     font-weight: 500;
     position:absolute;
     right:20px ;
     top:20px;
-    border:3px solid #ffffff;
+    border:3px solid #1a2b75;
     border-radius: 5px;
     text-decoration:none;
 }
