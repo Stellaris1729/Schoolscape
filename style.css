@@ -23,11 +23,13 @@ p {
 p:not(:last-child) {
   margin-bottom: 1.5em;
 }
+
 html,
 body,
 main {
   height: 100%;
 }
+
 body {
   background: radial-gradient(black 3px, transparent 4px),
     radial-gradient(black 3px, transparent 4px),
@@ -77,8 +79,8 @@ body {
   box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.25);
 
   backdrop-filter: blur(15px);
-  -webkit-box-shadow: 30px 30px 35px rgba(0,0,0,0.25);
-          box-shadow: 30px 30px 35px rgba(0,0,0,0.25);
+  -webkit-box-shadow: 30px 30px 35px rgba(0, 0, 0, 0.25);
+  box-shadow: 30px 30px 35px rgba(0, 0, 0, 0.25);
 }
 
 .card-footer-1 {
@@ -220,18 +222,18 @@ select {
   }
 
   .card-footer-1 {
-  font-family: "Poppins", sans-serif;
-  font-size: 0.65em;
-  color: #446;
-  margin: 0 0 0 62px;
-}
+    font-family: "Poppins", sans-serif;
+    font-size: 0.65em;
+    color: #446;
+    margin: 0 0 0 62px;
+  }
 
-.card-footer-2 {
-  font-family: "Poppins", sans-serif;
-  font-size: 0.65em;
-  color: #446;
-  margin: 0 0 0 58px;
-}
+  .card-footer-2 {
+    font-family: "Poppins", sans-serif;
+    font-size: 0.65em;
+    color: #446;
+    margin: 0 0 0 58px;
+  }
 
   #error {
     padding: 0 0 20px 63px;

@@ -1,9 +1,14 @@
- @import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@700&family=Raleway:wght@400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@700&family=Raleway:wght@400;500;600;700;800&display=swap');
 
-*{
-  margin:0;
-  padding:0;
-  font-family:'Raleway', serif;
+* {
+  padding: 0;
+  margin: 0;
+}
+
+html,
+body,
+main {
+  height: 100%;
 }
 
 body {
@@ -42,28 +47,49 @@ body {
 
 .card {
   font-family: "Poppins", sans-serif;
-  margin: 1vh 60vh 0 60vh;
   display: flex;
-  flex-direction: column;
-  justify-content: space-between;
+  margin: 0 0 0 2vw;
 
-  padding: 50px;
-
-  border: 1px solid rgba(255, 255, 255, 0.25);
+  padding: 200px 200px 200px 200px;
+  border: 1px solid rgba(192, 192, 192, 0.3);
   border-radius: 20px;
   background-color: rgba(192, 192, 192, 0.3);
   box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.25);
 
   backdrop-filter: blur(15px);
+  -webkit-box-shadow: 30px 30px 35px rgba(0,0,0,0.25);
+          box-shadow: 30px 30px 35px rgba(0,0,0,0.25);
 }
 
-#container {
-  height:100vh;
-  width:100vw;
-  background-color:#F2EBDD;
-  display:flex;
-  align-items:center;
-  justify-content:center;
+.desc {
+  font-family: "Poppins", sans-serif;
+  justify-content: space-between;
+  margin: 0 2vw 0 4vw;
+  display: flex;
+
+  padding: 250px 400px 250px 400px;
+
+  border: 1px solid rgba(192, 192, 192, 0.3);
+  border-radius: 20px;
+  background-color: rgba(192, 192, 192, 0.3);
+  box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.25);
+
+  backdrop-filter: blur(15px);
+  -webkit-box-shadow: 30px 30px 35px rgba(0,0,0,0.25);
+          box-shadow: 30px 30px 35px rgba(0,0,0,0.25);
+}
+
+.text-area {
+  display: flex;
+  justify-content: center;
+}
+
+.content { 
+  display: flex;
+  justify-content: center;
+  font-weight: 500;
+  font-size: 20px;
+  font-family: "Montserrat", sans-serif;
 }
 
 .card-image {
@@ -75,15 +101,4 @@ body {
   position:absolute;
   z-index:2;
   height:100%;
-}
-
-#anonymous>.card-image {
-  height:100%;
-  background-color:#5CAAB4;
-}
-#anonymous>.card-image>img {
-  width:130%;
-  height:90%;
-  margin-top:25px;
-  margin-left:-60px;
 }
